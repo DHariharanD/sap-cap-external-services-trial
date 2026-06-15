@@ -1,0 +1,23 @@
+
+---
+spring:
+  config:
+    activate:
+      on-profile: default
+  sql:
+    init:
+      platform: h2
+cds:
+  data-source:
+    auto-config:
+      enabled: false
+  remote:
+    services:
+      '[CE_PURCHASEREQUISITION_0001]':
+        destination:
+          name: CE_PURCHASEREQUISITION_0001
+        type: odata-v4
+      '[CE_PURCHASEORDER_0001]':
+        destination:
+          name: CE_PURCHASEORDER_0001
+        type: odata-v4

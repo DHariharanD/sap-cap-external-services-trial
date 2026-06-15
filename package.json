@@ -1,0 +1,31 @@
+{
+  "name": "sap-cap-external-services-trial-cds",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@sap/cds-dk": "^9.7.2"
+  },
+  "cds": {
+    "requires": {
+      "CE_PURCHASEORDER_0001": {
+        "kind": "odata-v4",
+        "model": "srv/external/CE_PURCHASEORDER_0001",
+        "credentials": {
+          "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata4/sap/api_purchaseorder_2/srvd_a2x/sap/purchaseorder/0001",
+          "headers": {
+            "apikey": "yGS6H45wzrGSl2sfLwGyIXutnFp3e8As"
+          }
+        }
+      },
+      "CE_PURCHASEREQUISITION_0001": {
+        "kind": "odata-v4",
+        "model": "srv/external/CE_PURCHASEREQUISITION_0001",
+        "credentials": {
+          "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata4/sap/api_purchaserequisition_2/srvd_a2x/sap/purchaserequisition/0001",
+          "headers": {
+            "apikey": "yGS6H45wzrGSl2sfLwGyIXutnFp3e8As"
+          }
+        }
+      }
+    }
+  }
+}
