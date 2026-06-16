@@ -37,7 +37,10 @@ hs_err*
 
 
 # Personal files, references, commands, api keys and other files that should not be shared
+.env
+srv/.env
+.cdsrc-private.json
 commands.md
 filetree.md
 postman_testing.md
-
+terminallogs.md
