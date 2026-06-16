@@ -12,7 +12,7 @@
         "credentials": {
           "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata4/sap/api_purchaseorder_2/srvd_a2x/sap/purchaseorder/0001",
           "headers": {
-            "apikey": "yGS6H45wzrGSl2sfLwGyIXutnFp3e8As"
+            "apikey": "<ENTER_YOUR_API_KEY>"
           }
         }
       },
@@ -22,7 +22,7 @@
         "credentials": {
           "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata4/sap/api_purchaserequisition_2/srvd_a2x/sap/purchaserequisition/0001",
           "headers": {
-            "apikey": "yGS6H45wzrGSl2sfLwGyIXutnFp3e8As"
+            "apikey": "<ENTER_YOUR_API_KEY>"
           }
         }
       }

@@ -3,7 +3,8 @@ using { CE_PURCHASEREQUISITION_0001 as PR_API } from './external/CE_PURCHASEREQU
 
 service ProcurementService @(path: '/procurement') {
 
-    // ── Purchase Orders ─────────────────────────────────────────
+    // ── Purchase Orders ──────────────────────────────────────────
+    @readonly
     entity PurchaseOrders as projection on PO_API.PurchaseOrder {
         PurchaseOrder,
         PurchaseOrderType,

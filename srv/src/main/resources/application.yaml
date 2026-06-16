@@ -1,4 +1,3 @@
-
 ---
 spring:
   config:
@@ -13,11 +12,11 @@ cds:
       enabled: false
   remote:
     services:
-      '[CE_PURCHASEREQUISITION_0001]':
-        destination:
-          name: CE_PURCHASEREQUISITION_0001
-        type: odata-v4
       '[CE_PURCHASEORDER_0001]':
-        destination:
-          name: CE_PURCHASEORDER_0001
         type: odata-v4
+        destination:
+          name: "CE_PURCHASEORDER_0001"
+      '[CE_PURCHASEREQUISITION_0001]':
+        type: odata-v4
+        destination:
+          name: "CE_PURCHASEREQUISITION_0001"
